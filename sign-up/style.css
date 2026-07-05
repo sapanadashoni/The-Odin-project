@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+legend{
+    font-size: larger;
+    margin-bottom: 30px;
+    background-color: bisque;
+
+    
+}
+
+fieldset{
+    border:none;
+    border: 2px solid grey;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+label{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+}
