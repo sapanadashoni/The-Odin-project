@@ -1,3 +1,151 @@
-.{
-    background-color: cadetblue;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:system-ui;
+}
+
+.container{
+    min-height:100vh;
+    min-width: 100vw;
+    display:grid;
+    grid-template-columns:250px 1fr;
+}
+
+/* Sidebar */
+
+.sidebar{
+    background:#1992d4;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    padding:25px;
+    gap:50px;
+}
+
+.menu{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    list-style:none;
+}
+
+.secondary-menu{
+    margin-top:auto;
+}
+
+/* Main */
+
+.main{
+    display:flex;
+    flex-direction:column;
+}
+
+/* Header */
+
+.header{
+    display:flex;
+    flex-direction:column;
+    padding:20px 35px;
+    gap:25px;
+}
+input{
+    padding: 5px;
+    border: 1px solid beige;
+    border-radius: 4px;
+    width: 300px;
+}
+.header-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.header-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+img{
+    width: 50px;
+    height: auto;
+}
+.info{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.btns{
+    display:flex;
+    gap:20px;
+}
+
+/* Contenido */
+
+.content{
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    gap:25px;
+
+    background:#e2e8f0;
+    padding:30px;
+}
+
+/* Proyectos */
+
+.projects{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.card-content{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.card{
+    display:flex;
+    flex-direction:column;
+    border-left: 8px solid orange;
+    background:white;
+    padding:50px;
+    border-radius:10px;
+}
+
+/* Panel derecho */
+
+.right-panel{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.announcements,
+.trending{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.card-announ{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+button{
+    padding: 10px;
+    background-color: #1992d4;
+    border: none;
+    border-radius: 10px;
+    color: white;
 }
